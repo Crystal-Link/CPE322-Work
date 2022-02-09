@@ -1,5 +1,3 @@
-###### I pledge my honor that I have abided by the Stevens Honor System. @Calvin Zheng
-
 # Labs 1 and 2 -- Command Line
 For this lab, we were to demonstrate the usage of some Command Line commands within a terminal.
 
