@@ -49,6 +49,7 @@
   * [Hypertext Transfer Protocol Secure](https://en.wikipedia.org/wiki/HTTPS) (HTTPS)
   * [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS)
 * [Apache Software Foundation](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation)
+  * [Apache](https://en.wikipedia.org/wiki/Apache)
 * [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) (Linux, Apache, MySQL, PHP/Perl/Python)
 
 ## Labs 4A and 4B: Django and Django REST
@@ -83,6 +84,8 @@ Reload privilege tables now? [Y/n]
 ```
 ### 3. Start Django project [stevens](https://github.com/kevinwlu/iot/tree/master/lesson4/stevens)
 ### 4. Start Django REST project [mycpu](https://github.com/kevinwlu/iot/tree/master/lesson4/mycpu)
+* Problem: requests.exceptions.InvalidURL: Failed to parse: http://127.0.0.1:8000/dt/1/
+* Solution: sudo pip3 install -U urllib3
 ### 5. Optional: Start Django REST project [myraspi](https://github.com/kevinwlu/iot/tree/master/lesson4/myraspi) on Raspberry Pi
 ### 6. Optional: Start four Django REST projects on Raspberry Pi with sensors
 * [lighting](https://github.com/kevinwlu/iot/tree/master/lesson4/lighting)
