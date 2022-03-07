@@ -10,7 +10,8 @@ These commands were completed within the ssh terminal on my personal Raspberry P
 
 ### Lab 6A: Node.js
 Following the instructions in [lesson6](https://github.com/kevinwlu/iot/tree/master/lesson6), this lab was very straightforward. Install Node.js (or Node-RED on the Raspberry Pi) and run hello-world.js, hello.js, and http.js.
-	- NOTE: The server ran by hello-world.js only works locally. Therefore, the screenshot for that server was done through VNC viewer and not directly on my Windows machine like the other two.
+
+- NOTE: The server ran by hello-world.js only works locally. Therefore, the screenshot for that server was done through VNC viewer and not directly on my Windows machine like the other two.
 
 Working Node.js Server hello.js:
 ![Node hello.js](./node_hello.PNG)
