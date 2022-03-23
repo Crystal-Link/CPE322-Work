@@ -14,9 +14,11 @@ Following the instructions in [lesson7](https://github.com/kevinwlu/iot/tree/mas
 Sign up for [ThingSpeak](https://thingspeak.com/) and created the new *cpu_loop* channel whose field1 is *cpu_pc* and field2 is *mem_avail_mb*. After getting the Write API Key from the generated channel and inputting that into the `thingspeak_feed.py`, I can run the code to feed my Pi's CPU usage and available memory to the ThingSpeak channel. I can then see that aside from the outlier points on the ThingSpeak channel charts, my Pi's util data is being graphed on the Field 1 and 2 charts.
 
 Working thingspeak_feed.py:
+
 ![thingspeak_feed.py](./ThingSpeak_Feed.PNG)
 
 Working ThingSpeak channel:
+
 ![ThingSpeak Channel Page](./ThingSpeak_Channel.PNG)
 
 ### Lab 7B: Google Sheets
@@ -27,7 +29,9 @@ Follow the instructions in [lesson7](https://github.com/kevinwlu/iot/tree/master
 - Note: I did edit the cpu_spreadsheet.py to also feed the temperature data to the spreadsheet, which is why I have one extra column for the temperature being reported.
 
 Working cpu_spreadsheet.py:
+
 ![cpu_spreadsheet.py](./cpu_spreadsheet.PNG)
 
 Working cpudata Spreadsheet:
+
 ![cpudata Spreadsheet](./cpudata_Spreadsheet.PNG)
