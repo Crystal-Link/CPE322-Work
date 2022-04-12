@@ -11,7 +11,7 @@ These commands were completed within the ssh terminal on my personal Raspberry P
 ### Lab 9A: YANG
 Following the instructions in [lesson9](https://github.com/kevinwlu/iot/tree/master/lesson9), this lab was very straightforward. 
 
-NOTE: 
+NOTE: No additional comments. This lab worked without any difficulties.
 
 Resulting `intrusiondetection.png`:
 
